@@ -14,11 +14,11 @@ Deployed application: (https://whiskers-and-wagz.herokuapp.com/)
 
 ## Technologies used
 
-MySQL
-Sequelize
-Node.js
-Handlebars
-Express
+* MySQL
+* Sequelize
+* Node.js
+* Handlebars
+* Express
 
 ## Credits
 
