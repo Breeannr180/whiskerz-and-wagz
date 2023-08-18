@@ -10,7 +10,7 @@ This webpage is designed to let users view dogs and cats available for adoption,
 
 ## Link to deployed application
 
-Deployed application: (https://whiskers-and-wagz.herokuapp.com/)
+Deployed application: 
 
 ## Technologies used
 
