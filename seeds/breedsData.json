@@ -1,0 +1,14 @@
+[
+  {
+    "breed_name": "Labrador Retriever",
+    "type_id": 1
+  },
+  {
+    "breed_name": "Persian",
+    "type_id": 2
+  },
+  {
+    "breed_name": "Canary",
+    "type_id": 3
+  }
+]

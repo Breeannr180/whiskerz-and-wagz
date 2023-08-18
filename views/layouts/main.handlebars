@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+     <style>
+        .navbar.is-green {
+            background-color: green;
+        }
+
+        .navbar.is-green .navbar-item {
+            color: black;
+        }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>{{title}}</h1>
+    </header>
+    <nav class="navbar is-green" role="navigation" aria-label="main navigation">
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/">
+            Home
+          </a>
+          <a class="navbar-item" href="/contact">
+            Contact
+          </a>
+          <a class="navbar-item" href="/dogs">
+            Dogs
+          </a>
+          <a class="navbar-item" href="/cats">
+            Cats
+          </a>
+          <a class="navbar-item" href="/adoption">
+            Adopt
+          </a>
+        </div>
+        <div class="navbar-end">
+          {{#if logged_in}}
+            <a id="logout" class="navbar-item" href="/api/users/logout">
+              Logout
+            </a>
+          {{else}}
+            <a class="navbar-item" href="/login">
+              Login
+            </a>
+          {{/if}}
+        </div>
+      </div>
+    </nav>
+    <div class="adopt-container">
+      {{{body}}}
+    </div>
+
+    <script>
+      const logout = document.getElementById('logout');
+      logout.addEventListener("click", function(e){ e.preventDefault();
+      fetch("/api/users/logout", { method: "POST", }).then(res => { if(res.ok){
+      document.location.replace("/"); } else { alert("Logout failed."); } }) })
+    </script>
+  </body>
+</html>

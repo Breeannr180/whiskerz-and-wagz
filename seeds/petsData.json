@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Buddy",
+      "age": 5,
+      "gender": "Male",
+      "type_id": 1,
+      "availability": true,
+      "user_id": 1,
+      "breed_id": 1,
+      "image": "BooBear-dog.jpg"
+    },
+    {
+      "name": "Fluffy",
+      "age": 3,
+      "gender": "Female",
+      "type_id": 2,
+      "availability": true,
+      "user_id": 2,
+      "breed_id": 2,
+      "image": "lloyd-cat.jpg"
+    },
+    {
+      "name": "Belle",
+      "age": 3,
+      "gender": "Female",
+      "type_id": 1,
+      "availability": true,
+      "user_id": 1,
+      "breed_id": 1,
+      "image": "Belle-dog.jpg"
+    },
+    {
+      "name": "BooBear",
+      "age": 3,
+      "gender": "Male",
+      "type_id": 1,
+      "availability": true,
+      "user_id": 1,
+      "breed_id": 1,
+      "image": "BooBear-dog.jpg"
+    },
+    {
+      "name": "George",
+      "age": 3,
+      "gender": "Male",
+      "type_id": 2,
+      "availability": true,
+      "user_id": 2,
+      "breed_id": 2,
+      "image": "George-cat.jpg"
+    },
+    {
+      "name": "Lilly",
+      "age": 3,
+      "gender": "Female",
+      "type_id": 1,
+      "availability": true,
+      "user_id": 1,
+      "breed_id": 1,
+      "image": "Lilly-dog.jpg"
+    }
+  ]
