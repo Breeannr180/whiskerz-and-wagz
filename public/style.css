@@ -71,8 +71,25 @@ body {
     height: 400px;
     margin-bottom: 20px;
   }
-  
-  .Available-Dogs figcaption {
+  .Available-Dogs figcaption,
+  .Available-Cats figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px; /* Consider adjusting for smaller screens */
+    font-weight: bold;
+    font-size: 1.25rem; /* Using rem for scalable font size */
+    color: black;
+  }
+  @media only screen and (max-width: 600px) {
+    .Available-Dogs figcaption,
+    .Available-Cats figcaption {
+      gap: 15px; /* Smaller gap for smaller screens */
+      font-size: 1rem; /* Smaller font size for smaller screens */
+    }
+  }
+  /* .Available-Dogs figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +109,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     color: black;
-  }
+  } */
   
   .footer {
     background-color: #f8f8f8;
