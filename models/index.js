@@ -2,10 +2,10 @@
 const Sequelize = require('sequelize');
 const sequelize = require('../config/connection');
 
-const Types = require('./Types');
-const Breeds = require('./Breeds');
-const Users = require('./Users');
-const Pets = require('./Pets');
+const Types = require('./types');
+const Breeds = require('./breeds');
+const Users = require('./users');
+const Pets = require('./pets');
 const AdoptionRequests = require('./AdoptionRequests');
 
 // Define the relationships between the models
