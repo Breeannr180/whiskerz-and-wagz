@@ -1,4 +1,4 @@
-# Whiskers and Wagz
+# Whiskerz and Wagz
 
 ## Description of the webpage
 
