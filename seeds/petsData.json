@@ -10,14 +10,14 @@
       "image": "BooBear-dog.jpg"
     },
     {
-      "name": "Fluffy",
+      "name": "Lloyd",
       "age": 3,
       "gender": "Female",
       "type_id": 2,
       "availability": true,
       "user_id": 2,
       "breed_id": 2,
-      "image": "lloyd-cat.jpg"
+      "image": "Lloyd-cat.jpg"
     },
     {
       "name": "Belle",
